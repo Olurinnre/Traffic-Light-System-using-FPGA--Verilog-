@@ -30,8 +30,6 @@ The traffic light controller uses a finite state machine (FSM) to control the th
 | Yellow    | PIN_AK22 | Warning signal |
 | Green     | PIN_AG22 | Go signal    |
 
-*(Please verify actual pin mappings based on your DE10-Lite board's user manual or pin planner.)*
-
 ---
 
 ## 💡 Applications
@@ -62,16 +60,6 @@ The traffic light controller uses a finite state machine (FSM) to control the th
 
 ---
 
-## 🚀 Getting Started
-
-1. Open the project in **Quartus Prime Lite**.
-2. Add the `traffic_light.v` file.
-3. Assign pins using the **Pin Planner** or `.qsf`.
-4. Compile the project.
-5. Use the **USB-Blaster** to program the DE10-Lite.
-6. Reset the board and observe the LED cycle.
-
----
 
 ## 📜 Conclusion
 
